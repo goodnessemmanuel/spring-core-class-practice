@@ -14,7 +14,7 @@ public class DemoApplication {
 
         GreetingController greetingController = (GreetingController) ctx.getBean("greetingController");
 
-        System.out.println(greetingController.sayHello());
+        greetingController.sayHello();
 
 
     }

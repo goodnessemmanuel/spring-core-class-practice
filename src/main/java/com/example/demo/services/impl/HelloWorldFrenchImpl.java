@@ -9,6 +9,6 @@ import org.springframework.stereotype.Component;
 public class HelloWorldFrenchImpl implements HelloWorldService {
     @Override
     public String sayHello() {
-        return "Hola Nude!!";
+        return "Hola Mundo!";
     }
 }
