@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("english")
+@Profile({"default","english"})//use this english  implementation as default if no active profile in application.properties
 public class HelloWorldImpl implements HelloWorldService {
     private HelloWorldService helloWorldService;
 
