@@ -1,4 +1,4 @@
-package com.example.demo.springboot;
+package springboot;
 
 import com.example.demo.controllers.GreetingController;
 import org.springframework.boot.SpringApplication;

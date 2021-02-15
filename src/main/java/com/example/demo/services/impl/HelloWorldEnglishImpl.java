@@ -2,9 +2,9 @@ package com.example.demo.services.impl;
 
 import com.example.demo.services.HelloWorldService;
 
-public class HelloWorldFrenchImpl implements HelloWorldService {
+public class HelloWorldEnglishImpl implements HelloWorldService {
     @Override
     public String sayHello() {
-        return "Hola Mundo!";
+        return "Hello World!!";
     }
 }
